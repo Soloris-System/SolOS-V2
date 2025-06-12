@@ -19,7 +19,7 @@
     *   Full administrative control to add/remove XP and bind new roles.
 *   **Advanced Anti-Abuse Protocol:**
     *   Monitors moderation actions (kicks/bans) from **both the bot's commands and manual Discord UI actions**.
-    *   If a moderator exceeds the daily limit, their roles are automatically removed and the bot owner is DMed, preventing abuse of power.
+    *   If a moderator exceeds the daily limit, their roles are automatically removed and the proper admin is alerted, preventing abuse of power.
 *   **Modular Cog Architecture:** Commands are logically separated into cogs (`moderation`, `experience`, `fun`, etc.), making the code clean, organized, and easy to expand.
 *   **Comprehensive Command Suite:** Over 35 commands covering everything from moderation and role management to user utilities and fun, troll-like commands.
 *   **24/7 Replit Hosting:** Fully configured for deployment on Replit, including a keep-alive web server to ensure constant uptime.
@@ -49,4 +49,4 @@ SolOS V2's commands are organized into the following modules:
 
 ---
 
-This project was built from the ground up to be a powerful and reliable cornerstone of a Discord community.
+This project was single-handedly developed by me. Bugs will happen. Expect them.
